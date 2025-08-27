@@ -1,0 +1,229 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.user-info {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.user-info h2 {
+  margin-bottom: 0.5rem;
+}
+
+.logout-btn {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+
+.navigation {
+  margin-bottom: 2rem;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.navigation ul li {
+  margin: 0 5px 10px 5px;
+}
+
+.navigation ul li button {
+  background-color: #333;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.navigation ul li button:hover {
+  background-color: #555;
+}
+
+.navigation ul li button.active {
+  background-color: #007bff;
+}
+
+main {
+  padding: 1rem 0;
+}
+
+.auth-form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.content-section {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.dashboard {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.link-button:hover {
+  color: #0056b3;
+}
+
+.error-message {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 3px;
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.success-message {
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 3px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.role-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.role-admin {
+  background-color: #dc3545;
+  color: white;
+}
+
+.role-user {
+  background-color: #28a745;
+  color: white;
+}
+
+.role-manager {
+  background-color: #ffc107;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .navigation ul {
+    flex-direction: column;
+  }
+  
+  .navigation ul li {
+    margin: 5px 0;
+  }
+  
+  .navigation ul li button {
+    width: 100%;
+  }
+}
