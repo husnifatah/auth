@@ -38,7 +38,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (username, password) => {
     try {
-      const response = await fetch('http://localhost:5000/api/auth/login', {
+      const response = await fetch('https://auth-bl96.onrender.com/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -63,7 +63,7 @@ export const AuthProvider = ({ children }) => {
 
   const register = async (username, email, password, role) => {
     try {
-      const response = await fetch('http://localhost:5000/api/auth/register', {
+      const response = await fetch('https://auth-bl96.onrender.com/api/auth/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

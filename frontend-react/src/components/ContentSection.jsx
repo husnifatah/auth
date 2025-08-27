@@ -21,16 +21,16 @@ const ContentSection = ({ section }) => {
       let url = '';
       switch (section) {
         case 'public':
-          url = 'http://localhost:5000/api/users/public';
+          url = 'https://auth-bl96.onrender.com/api/users/public';
           break;
         case 'protected':
-          url = 'http://localhost:5000/api/users/protected';
+          url = 'https://auth-bl96.onrender.com/api/users/protected';
           break;
         case 'admin':
-          url = 'http://localhost:5000/api/users/admin';
+          url = 'https://auth-bl96.onrender.com/api/users/admin';
           break;
         case 'manager':
-          url = 'http://localhost:5000/api/users/manager';
+          url = 'https://auth-bl96.onrender.com/api/users/manager';
           break;
         default:
           setLoading(false);
